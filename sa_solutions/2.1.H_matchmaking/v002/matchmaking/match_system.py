@@ -6,7 +6,7 @@ class Individual:
         pass
 
 
-class MatchMaking():
+class MatchSystem():
     individuals: list[Individual]
 
     def __init__(cls, individuals: list[Individual], path: str | os.PathLike):
@@ -21,5 +21,5 @@ class MatchMaking():
 
 
 if __name__ == "__main__":
-    matchMaking = MatchMaking()
-    # matchMaking.match(target, matchStratety)
+    matchSystem = MatchSystem()
+    # matchSystem.match(target, matchStratety)
